@@ -1,0 +1,21 @@
+{
+    "name": "globalr7on/laravel-frontend",
+    "description": "Padrão projetos Laravel",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors":[
+        {
+            "name":"Victor Ramirez",
+            "email": "victor.ramirez@intergalaxy.io"
+        }
+
+    ],
+    "autoload": {
+        "psr-4": {
+            "Intergalaxy\\Frontend\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3"
+    }
+}
